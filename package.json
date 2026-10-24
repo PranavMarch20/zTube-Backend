@@ -1,13 +1,16 @@
 {
   "name": "ztube",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple youtube clone backend using nodejs and express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": [],
+  "keywords": ["youtube clone", "nodejs", "express"],
   "author": "Pranav Kumar Singh",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }

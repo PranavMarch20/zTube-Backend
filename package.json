@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "nodemon src/index.js"
   },
-  "keywords": ["youtube clone", "nodejs", "express"],
+  "keywords": [
+    "youtube clone",
+    "nodejs",
+    "express"
+  ],
   "author": "Pranav Kumar Singh",
   "license": "ISC",
   "type": "module",
